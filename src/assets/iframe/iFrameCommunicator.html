@@ -11,10 +11,9 @@
     src="https://jstest.authorize.net/v3/AcceptUI.js"
     charset="utf-8">
 </script>
-<!--    -->
+<!--     method="POST"
+    action="http://localhost:3000/transactions/webhook"  -->
 <form id="paymentForm"
-    method="POST"
-    action="http://localhost:3000/transactions/webhook"
 >
     <input type="hidden" name="dataValue" id="dataValue" />
     <input type="hidden" name="dataDescriptor" id="dataDescriptor" />
